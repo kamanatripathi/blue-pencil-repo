@@ -10,6 +10,8 @@
   --btn-primary-color: #111B47;
   --btn-contrast-color:#ffffff;
   --btn-secondary-color: #091133;
+  --logo-color: #37447E;
+  --link-color: #505F98;
 
 }
 
@@ -41,3 +43,18 @@ body {
 }
 
 
+
+.logo-header{
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--logo-color);
+}
+
+
+.link-header{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--link-color) !important;
+}
