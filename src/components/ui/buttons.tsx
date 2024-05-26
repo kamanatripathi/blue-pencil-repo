@@ -14,7 +14,8 @@ const Button = ({ children, variant = "primary", ...props }: Props) => {
         cursor: 'pointer',
         transition: 'all 0.2s ease-in-out',
         width: '189px',
-        height: '30px',
+        height: '36px',
+        padding:"4px 0",
       };
     
       const variantStyles = {
