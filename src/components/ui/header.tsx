@@ -13,7 +13,7 @@ export const Navbar = () => {
 
       <Box>
           <Flex align="center" wrap="wrap" display={{ base: 'none', md: 'flex' }}>
-            <Link className='link-header' as={NextLink} href='/home' mr={4}>
+            <Link className='link-header' as={NextLink} href='/' mr={4}>
               Home
             </Link>
             <Link className='link-header' as={NextLink} href='/about' mr={4}>

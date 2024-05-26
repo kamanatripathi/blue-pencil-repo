@@ -8,7 +8,7 @@ export const Navbar3 = () => {
   return (
     <nav className='z-10 w-full max-w-7xl items-center justify-between font-mono text-sm'>
       {/* <Flex align="center" justify="space-between" wrap="wrap" p={6}> */}
-      <Grid templateColumns={{ base: "2fr", md: "1fr 1fr" }} p={6}  >
+      <Grid templateColumns={{ base: "2fr", md: "1fr 1fr" }} pb={6}  >
       <GridItem className='text-start'>
         <Box>
           <Link href="/" className='logo-header-2'>
@@ -20,9 +20,9 @@ export const Navbar3 = () => {
 
       <Box >
           <div className='block text-end ' align="center" wrap="wrap" >
-          <Flex display={{ base: 'none', lg: 'flex' }}>
+          <Flex display={{ base: 'none', lg: 'flex' }} alignItems='center'>
 
-            <Link className='logo-header-3' as={NextLink} href='/home' mr={4}>
+            <Link className='logo-header-3' as={NextLink} href='/' mr={4}>
               Home
             </Link>
             <Link className='logo-header-3' as={NextLink} href='/about' mr={4}>

@@ -20,7 +20,7 @@ export const Navbar2 = () => {
 
       <Box>
           <Flex align="center" wrap="wrap" display={{ base: 'none', md: 'flex' }}>
-            <Link className='logo-header-3 ' as={NextLink} href='/home' mr={4}>
+            <Link className='logo-header-3 ' as={NextLink} href='/' mr={4}>
               Home
             </Link>
             <Link className='logo-header-3' as={NextLink} href='/about' mr={4}>
