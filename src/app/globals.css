@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Roboto', sans-serif !important;
-}
 :root {
-  font-family: 'Roboto', sans-serif !important;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -63,7 +59,7 @@ body {
 .logo-header{
   font-size: 26px;
   font-weight: 900;
-  color: var(--logo-color);
+  color: var(--logo-color) !important;
   font-family: 'Roboto', sans-serif !important;
 }
 
@@ -132,8 +128,9 @@ body {
     font-weight: bold  !important;
     line-height: 48px  !important;
     text-align: center  !important;
-    padding-bottom: 4px !important;
+    padding-bottom: 10px !important;
     color: var(--btn-secondary-color)  !important;
+    margin-top:15% !important;
 }
 .footer-subtitle{
   font-size: 18px;
@@ -152,6 +149,7 @@ body {
   letter-spacing: 1px;
   text-align: center;
   color: var(--pricing-color)  !important;
+  padding-top: 2%  !important; 
 }
 
 .pricing-subtitle{
@@ -167,6 +165,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   text-align: center;
+  padding-bottom: 10px !important;
   color: var(--icon-content-color)  !important;
 }
 .header-title{
@@ -176,6 +175,7 @@ body {
   text-align: left  !important;
   padding-bottom: 4px !important;
   color: var(--btn-secondary-color)  !important;
+  padding-bottom: 5% !important;
 }
 .text-align-center-cs{
   text-align-last: center !important;
