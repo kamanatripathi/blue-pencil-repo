@@ -3,7 +3,10 @@ import { Box, Flex, Grid, GridItem, Image, Text } from '@chakra-ui/react'
 const Section2 = () => {
     return (
         <>
-        <div className='max-w-7xl p-6'>
+        <section className='lg:pt-40' >
+            
+ 
+        <div className='max-w-7xl p-6 '>
         <Grid templateColumns={{ base: "2fr", md: "1fr 1fr" }} gap={4}>
             <GridItem className='content-center'>
                 <div className="flex flex-col  justify-center">
@@ -69,6 +72,7 @@ const Section2 = () => {
             </GridItem>
         </Grid>
         </div>
+        </section>
         </>
     )
 
