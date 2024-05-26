@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <nav className='z-10 w-full max-w-7xl items-center justify-between font-mono text-sm'>
       {/* <Flex align="center" justify="space-between" wrap="wrap" p={6}> */}
-      <Grid templateColumns={{ base: "3fr", md: "1fr 1fr 1fr" }} p={6} justify="space-between " align="center" >
+      <Grid templateColumns={{ base: "3fr", md: "1fr 1fr 1fr" }} p={6}  className='flex justify-between text-center'  >
       <GridItem>
 
       <Box>

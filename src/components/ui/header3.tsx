@@ -19,7 +19,7 @@ export const Navbar3 = () => {
       <GridItem className='grid-btn' >
 
       <Box >
-          <div className='block text-end ' align="center" wrap="wrap" >
+          <div className='block text-end  align-center text-wrap' >
           <Flex display={{ base: 'none', lg: 'flex' }} alignItems='center'>
 
             <Link className='logo-header-3' as={NextLink} href='/' mr={4}>

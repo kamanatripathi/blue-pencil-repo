@@ -2,7 +2,7 @@
 import { Button as ChakraButton, ButtonProps } from '@chakra-ui/react'
 interface Props extends ButtonProps {
   children: React.ReactNode;
-  variant?: "primary" | "secondary " | "tertial" ;
+  variant?: "primary" | "secondary" | "tertial" ;
 }
 
 const Button = ({ children, variant = "primary", ...props }: Props) => {
