@@ -2,7 +2,7 @@
 import { Button as ChakraButton, ButtonProps } from '@chakra-ui/react'
 interface Props extends ButtonProps {
   children: React.ReactNode;
-  variant?: "primary" | "secondary" ;
+  variant?: "primary" | "secondary " | "tertial" ;
 }
 
 const Button = ({ children, variant = "primary", ...props }: Props) => {
@@ -36,6 +36,17 @@ const Button = ({ children, variant = "primary", ...props }: Props) => {
           border: '2px solid var(--btn-secondary-color)',
           _hover: {
             bg: "var(--btn-secondary-color)",
+            color:"var(--btn-contrast-color)"
+          },
+        },
+
+        tertial : {
+          ...baseStyles,
+          bg: 'var(--btn-tertial-color)',
+          color: 'var(--btn-secondary-color)',
+          border: '2px solid var(--btn-secondary-color)',
+          _hover: {
+            bg: 'var(--btn-tertial-color)',
             color:"var(--btn-contrast-color)"
           },
         }
