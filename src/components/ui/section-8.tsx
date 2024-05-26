@@ -8,10 +8,10 @@ const Section8 = () => {
 
 
 
-<Grid templateColumns={{ base: "2fr", md: "1fr 1fr" }} gap={10} >
+<Grid templateColumns={{ base: "2fr", md: "1fr 1fr" }}  >
 
-    <GridItem className='content-center'>
-<div className="flex flex-col  justify-center ">
+<GridItem className='content-center p-6 lg:p-0' >
+<div className="flex flex-col  justify-center max-w-7xl">
        <div className='pb-5'>
        <Text className="header-title">
        Design & Build Your Own Landing Pages </Text>

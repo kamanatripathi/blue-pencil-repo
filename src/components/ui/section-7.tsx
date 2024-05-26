@@ -17,8 +17,8 @@ const Section7 = () => {
                                 className='h-full' />
                         </div>
                     </GridItem>
-                    <GridItem className='content-center'>
-                <div className="flex flex-col  justify-center  pr-20">
+                    <GridItem className='content-center p-6 lg:pr-20' >
+                <div className="flex flex-col  justify-center ">
                        <div className='pb-5'>
                        <Text className="header-title">
                             Light, Fast & Powerful </Text>
